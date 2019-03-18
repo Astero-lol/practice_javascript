@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="app">
+		<div class="app__column app__column_first">
+			<form class="app__form">
+				<div class="app__fields">
+					<div class="app__field">
+						<label class="app__input-wrapper">
+							<p class="app__title">Имя?</p>
+							<input class="app__input app__input_name" type="text" name="name">
+						</label>
+					</div>
+					<div class="app__field">
+						<div class="radio-group">
+							<label class="app__input-wrapper">
+								<input class="app__radio-button" type="radio" value='1' name="cat">
+								<span class="app__label">Да</span>
+							</label>
+							<label class="app__input-wrapper">
+								<input class="app__radio-button" type="radio" value='0' name="cat">
+								<span class="app__label">Нет</span>
+							</label>
+						</div>
+					</div>
+					<div class="app__field">
+						<div class="radio-group">
+							<div class="app__title">Отдыхал недавно?</div>
+							<label class="app__input-wrapper">
+								<input class="app__radio-button" type="radio" value='1' name="rest">
+								<span class="app__label">Да</span>
+							</label>
+							<label class="app__input-wrapper">
+								<input class="app__radio-button" type="radio" value='0' name="rest">
+								<span class="app__label">Нет</span>
+							</label>
+						</div>
+					</div>
+					<div class="app__field">
+						<div class="radio-group">
+							<div class="app__title">Отдыхал недавно?</div>
+							<label class="app__input-wrapper">
+								<input class="app__radio-button" type="radio" value='1' name="money">
+								<span class="app__label">Да</span>
+							</label>
+							<label class="app__input-wrapper">
+								<input class="app__radio-button" type="radio" value='0' name="money">
+								<span class="app__label">Нет</span>
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="app__actions">
+					<button class="app__button">HAPPINESS RATE</button>
+				</div>
+			</form>
+		</div>
+		<div class="app__column app__column_second">
+			<div class="app__result-name">Name</div>
+			<div class="app__icon">🖤</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
